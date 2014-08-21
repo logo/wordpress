@@ -1,0 +1,21 @@
+
+/**
+ * WordPress logo.
+ */
+
+.logo[data-logo="WordPress"] {
+  width: 0;
+}
+
+.logo[data-logo="WordPress"] > * {
+  background-image: url(images/logo.svg);
+  margin: 0 0 0 0;
+}
+
+.logo[data-logo="WordPress"][data-color="black"] > * {
+  background-image: url(images/logo-black.svg);
+}
+
+.logo[data-logo="WordPress"][data-color="white"] > * {
+  background-image: url(images/logo-white.svg);
+}
